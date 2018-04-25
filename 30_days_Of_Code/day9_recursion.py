@@ -1,19 +1,20 @@
-'''
-Title     : Recursion
+"""
+Title     : day9_Recursion
 Subdomain : 30 days of code
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
-'''
+"""
 
 
-def factorial(n):
-    # print("n is: ",n)
+def factorial(no):
+    # print("no is: ",no)
     # Complete this function
-    if n==1:
-        return n
+    if no == 1:
+        return no
     else:
-        return n * factorial(n-1)
+        return no * factorial(no-1)
+
 
 if __name__ == "__main__":
     n = int(input().strip())
