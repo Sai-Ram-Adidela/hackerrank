@@ -1,14 +1,14 @@
-'''
-Title     : Class Vs. Instance
+"""
+Title     : day4_Class Vs. Instance
 Subdomain : 30 days of code
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
-'''
+"""
 
 
 class Person:
-    def __init__(self,initialAge):
+    def __init__(self, initialAge):
         # Add some more code to run some checks on initialAge
         self.initialAge = initialAge
         if initialAge < 0:
@@ -16,8 +16,7 @@ class Person:
             self._age = 0
         else:
             self._age = initialAge
-        
-            
+
     def amIOld(self):
         # Do some computations in here and print out the correct statement to the console
         if self._age < 13:
@@ -26,8 +25,7 @@ class Person:
             print("You are a teenager.")
         else:
             print("You are old.")
-        
-        
+
     def yearPasses(self):
         # Increment the age of the person in here 
         self._age += 1
