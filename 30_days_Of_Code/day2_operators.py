@@ -1,10 +1,10 @@
-'''
-Title     : operators
+"""
+Title     : day2_operators
 Subdomain : 30 days of code
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
-'''
+"""
 if __name__ == "__main__":
     meal_cost = float(input().strip())
     tip_percent = int(input().strip())
@@ -17,5 +17,4 @@ if __name__ == "__main__":
     totalCost = round(meal_cost+tip+tax)
     # print(totalCost)
     
-    print('The total meal cost is %d dollars.'%totalCost)
-
+    print('The total meal cost is %d dollars.' % totalCost)
