@@ -1,10 +1,10 @@
-'''
-Title     : dictionaries_and_maps
+"""
+Title     : day8_dictionaries_and_maps
 Subdomain : 30 days of code
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
-'''
+"""
 num = int(input())
 
 phone_book = {}
