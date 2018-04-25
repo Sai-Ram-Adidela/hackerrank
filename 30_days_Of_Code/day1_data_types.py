@@ -1,10 +1,10 @@
-'''
-Title     : data_types
+"""
+Title     : day1_data_types
 Subdomain : 30 days of code
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
-'''
+"""
 i = 4
 d = 4.0
 s = 'HackerRank '
@@ -25,4 +25,3 @@ print(d+d1)
 # Concatenate and print the String variables on a new line
 print(s+s1)
 # The 's' variable above should be printed first.
-
