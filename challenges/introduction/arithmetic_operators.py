@@ -1,6 +1,6 @@
 """
 Title     : Arithmetic Operators
-Subdomain : Challenges/Introduction
+Subdomain : HackerRank/Python3/Challenges/Introduction
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 23 April 2018
