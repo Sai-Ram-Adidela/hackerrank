@@ -1,6 +1,6 @@
 """
 Title     : List Comprehensions
-Subdomain : Challenges/Basic Data Types
+Subdomain : HackerRank/Python3/Challenges/Basic Data Types
 Domain    : Python
 Author    : Sai Ram Adidela
 Created   : 18 April 2018
